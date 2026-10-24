@@ -93,11 +93,11 @@ The following table highlights top commercial conferencing and virtual classroom
 
 ## 💻 Open-Source GitHub Projects & Media Engines
 
-Below are top open-source virtual classroom platforms, video conferencing suites, and WebRTC streaming servers, sorted in **descending order by GitHub star count**. Each repository badge links directly to its live stargazers page.
+Below are top open-source virtual classroom platforms, video conferencing suites, and WebRTC streaming servers, sorted in **descending order by GitHub Stars_Count**. Each repository badge links directly to its live stargazers page.
 
 ---
 
-### 1. [Jitsi Meet](https://github.com/jitsi/jitsi-meet) [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers)
+### 1. [Jitsi Meet](https://github.com/jitsi/jitsi-meet) [![GitHub_Stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers)
 - 📝 **License**: Apache-2.0
 - 🛠️ **Tech Stack**: JavaScript / React / Java / Prosody XMPP / Jitsi Videobridge (JVB)
 - 💡 **Key Features**: The world’s most recognized open-source WebRTC video conferencing standard. Features zero-login guest join, low-latency Selective Forwarding Unit (SFU) architecture, screen sharing, etherpad integration, lobby waiting rooms, and Insertable Streams End-to-End Encryption (E2EE).
@@ -105,7 +105,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 2. [LiveKit](https://github.com/livekit/livekit) [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
+### 2. [LiveKit](https://github.com/livekit/livekit) [![GitHub_Stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
 - 📝 **License**: Apache-2.0
 - 🛠️ **Tech Stack**: Go / WebRTC / TypeScript / Rust
 - 💡 **Key Features**: Next-generation, developer-first real-time video, audio, and multimodal AI infrastructure. Delivers ultra-scalable distributed SFU clustering, client SDKs for React, iOS, Android, Flutter, Unity, and Python, alongside real-time voice AI pipelines.
@@ -113,7 +113,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 3. [Pion WebRTC](https://github.com/pion/webrtc) [![GitHub stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers)
+### 3. [Pion WebRTC](https://github.com/pion/webrtc) [![GitHub_Stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers)
 - 📝 **License**: MIT
 - 🛠️ **Tech Stack**: Go (Pure Go implementation of WebRTC API)
 - 💡 **Key Features**: Pure Go WebRTC stack without C/C++ dependencies. The underlying building block for modern conferencing servers, Galène, plugNmeet, and distributed low-latency video networks.
@@ -121,7 +121,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 4. [Owncast](https://github.com/owncast/owncast) [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
+### 4. [Owncast](https://github.com/owncast/owncast) [![GitHub_Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
 - 📝 **License**: MIT
 - 🛠️ **Tech Stack**: Go / React / HLS / RTMP
 - 💡 **Key Features**: Independent, self-hosted live video broadcast and interactive chat server. Ideal for distance learning live-streams, campus lectures, and auditoriums requiring custom branding without platform moderation.
@@ -129,7 +129,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 5. [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton) [![GitHub stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers)
+### 5. [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton) [![GitHub_Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers)
 - 📝 **License**: LGPL-3.0
 - 🛠️ **Tech Stack**: Scala / Node.js / HTML5 / Kurento / FreeSWITCH / Redis
 - 💡 **Key Features**: The academic gold standard for virtual classrooms. Built from the ground up for pedagogy with multi-user whiteboard, timed breakout rooms, student polling, slide presentations with synchronized zoom, shared notes, and native LTI 1.3 integrations for Moodle, Canvas, and Blackboard.
@@ -137,7 +137,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 6. [Janus Gateway](https://github.com/meetecho/janus-gateway) [![GitHub stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers)
+### 6. [Janus Gateway](https://github.com/meetecho/janus-gateway) [![GitHub_Stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers)
 - 📝 **License**: GPL-3.0
 - 🛠️ **Tech Stack**: C / WebRTC / libnice / OpenSSL
 - 💡 **Key Features**: Highly modular general-purpose WebRTC server by Meetecho. Plugin-based architecture supporting VideoRoom SFU, SIP PBX gateway, audio mixing, text rooms, and RTMP/RTP streaming relays.
@@ -145,7 +145,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 7. [mediasoup](https://github.com/versatica/mediasoup) [![GitHub stars](https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white)](https://github.com/versatica/mediasoup/stargazers)
+### 7. [mediasoup](https://github.com/versatica/mediasoup) [![GitHub_Stars](https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white)](https://github.com/versatica/mediasoup/stargazers)
 - 📝 **License**: IBC / MIT
 - 🛠️ **Tech Stack**: C++ (Core Media Engine) / Node.js / Rust
 - 💡 **Key Features**: Cutting-edge WebRTC Selective Forwarding Unit (SFU) designed as a backend component for Node.js or Rust microservices. Powers EduMeet and modern custom video platforms with multi-core packet routing.
@@ -153,7 +153,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 8. [MiroTalk P2P](https://github.com/miroslavpejic85/mirotalk) [![GitHub stars](https://img.shields.io/github/stars/miroslavpejic85/mirotalk?style=social&color=white)](https://github.com/miroslavpejic85/mirotalk/stargazers)
+### 8. [MiroTalk P2P](https://github.com/miroslavpejic85/mirotalk) [![GitHub_Stars](https://img.shields.io/github/stars/miroslavpejic85/mirotalk?style=social&color=white)](https://github.com/miroslavpejic85/mirotalk/stargazers)
 - 📝 **License**: AGPL-3.0
 - 🛠️ **Tech Stack**: JavaScript / WebRTC / PeerJS / Socket.io
 - 💡 **Key Features**: Ultra-fast browser-to-browser peer-to-peer video conference platform. Includes interactive whiteboard, file sharing, video recording, screen sharing, and audio visualizer without media server transcode overhead.
@@ -161,7 +161,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 9. [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
+### 9. [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub_Stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
 - 📝 **License**: Apache-2.0 (Community) / Commercial (Enterprise)
 - 🛠️ **Tech Stack**: Java / C++ / WebRTC / RTMP / CMAF
 - 💡 **Key Features**: High-performance streaming engine with sub-0.5s ultra-low latency WebRTC streaming, adaptive bitrate switching (ABR), and RTMP-to-WebRTC transcoding for large-scale classroom broadcasts.
@@ -169,7 +169,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 10. [MiroTalk SFU](https://github.com/miroslavpejic85/mirotalksfu) [![GitHub stars](https://img.shields.io/github/stars/miroslavpejic85/mirotalksfu?style=social&color=white)](https://github.com/miroslavpejic85/mirotalksfu/stargazers)
+### 10. [MiroTalk SFU](https://github.com/miroslavpejic85/mirotalksfu) [![GitHub_Stars](https://img.shields.io/github/stars/miroslavpejic85/mirotalksfu?style=social&color=white)](https://github.com/miroslavpejic85/mirotalksfu/stargazers)
 - 📝 **License**: AGPL-3.0
 - 🛠️ **Tech Stack**: JavaScript / mediasoup / WebRTC / WebSockets
 - 💡 **Key Features**: Enterprise-grade multi-party video conferencing built upon mediasoup SFU. Supports up to 4K resolution, end-to-end screen casting, virtual backgrounds, whiteboard, raise hand, and multi-language UI.
@@ -177,7 +177,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 11. [OpenVidu](https://github.com/OpenVidu/openvidu) [![GitHub stars](https://img.shields.io/github/stars/OpenVidu/openvidu?style=social&color=white)](https://github.com/OpenVidu/openvidu/stargazers)
+### 11. [OpenVidu](https://github.com/OpenVidu/openvidu) [![GitHub_Stars](https://img.shields.io/github/stars/OpenVidu/openvidu?style=social&color=white)](https://github.com/OpenVidu/openvidu/stargazers)
 - 📝 **License**: Apache-2.0
 - 🛠️ **Tech Stack**: Java / TypeScript / LiveKit / Kurento / mediasoup
 - 💡 **Key Features**: Developer abstraction platform that makes adding real-time video to web and mobile apps straightforward. Provides ready-to-use frontend UI components, webhook events, and server recording.
@@ -185,7 +185,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 12. [Galène](https://github.com/jech/galene) [![GitHub stars](https://img.shields.io/github/stars/jech/galene?style=social&color=white)](https://github.com/jech/galene/stargazers)
+### 12. [Galène](https://github.com/jech/galene) [![GitHub_Stars](https://img.shields.io/github/stars/jech/galene?style=social&color=white)](https://github.com/jech/galene/stargazers)
 - 📝 **License**: MIT
 - 🛠️ **Tech Stack**: Go / WebRTC (Pion) / JavaScript
 - 💡 **Key Features**: Minimalist, hyper-efficient video conferencing server created by Juliusz Chroboczek at Université Paris Cité. A single Go binary without external databases or message queues; an entire 100-student lecture runs smoothly on just 0.25 CPU cores and ~50 MB RAM.
@@ -193,7 +193,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 13. [EduMeet](https://github.com/edumeet/edumeet) [![GitHub stars](https://img.shields.io/github/stars/edumeet/edumeet?style=social&color=white)](https://github.com/edumeet/edumeet/stargazers)
+### 13. [EduMeet](https://github.com/edumeet/edumeet) [![GitHub_Stars](https://img.shields.io/github/stars/edumeet/edumeet?style=social&color=white)](https://github.com/edumeet/edumeet/stargazers)
 - 📝 **License**: ISC
 - 🛠️ **Tech Stack**: TypeScript / Node.js / mediasoup / React
 - 💡 **Key Features**: Academic WebRTC virtual classroom solution developed by the European GÉANT research network. Designed to deliver low-latency, high-resolution multimedia streaming with strict academic privacy.
@@ -201,7 +201,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 14. [Apache OpenMeetings](https://github.com/apache/openmeetings) [![GitHub stars](https://img.shields.io/github/stars/apache/openmeetings?style=social&color=white)](https://github.com/apache/openmeetings/stargazers)
+### 14. [Apache OpenMeetings](https://github.com/apache/openmeetings) [![GitHub_Stars](https://img.shields.io/github/stars/apache/openmeetings?style=social&color=white)](https://github.com/apache/openmeetings/stargazers)
 - 📝 **License**: Apache-2.0
 - 🛠️ **Tech Stack**: Java / Wicket / HTML5 / Kurento / MySQL
 - 💡 **Key Features**: The Apache Software Foundation’s comprehensive collaboration platform. Offers document sharing (PDF, DOC, PPT), interactive whiteboards, session recording, user poll management, and LDAP/OAuth authentication.
@@ -209,7 +209,7 @@ Below are top open-source virtual classroom platforms, video conferencing suites
 
 ---
 
-### 15. [plugNmeet](https://github.com/mynaparrot/plugNmeet-server) [![GitHub stars](https://img.shields.io/github/stars/mynaparrot/plugNmeet-server?style=social&color=white)](https://github.com/mynaparrot/plugNmeet-server/stargazers)
+### 15. [plugNmeet](https://github.com/mynaparrot/plugNmeet-server) [![GitHub_Stars](https://img.shields.io/github/stars/mynaparrot/plugNmeet-server?style=social&color=white)](https://github.com/mynaparrot/plugNmeet-server/stargazers)
 - 📝 **License**: MIT
 - 🛠️ **Tech Stack**: Go / LiveKit / React / Redis
 - 💡 **Key Features**: Modern high-performance web conferencing and virtual classroom server. Features an autonomous AI Meeting Assistant, live audio transcription, interactive whiteboard, MP4 recording, and LTI/Moodle plugins.
@@ -249,7 +249,7 @@ We actively welcome contributions from educators, DevOps engineers, and WebRTC d
 2. 🌿 **Create a Branch**: `git checkout -b feature/add-new-conferencing-tool`
 3. 📝 **Add Your Entry**: Update `README.md` following the established format:
    - Include official name and GitHub link.
-   - Add the Shields.io star badge with `style=social&color=white` linking to the stargazers page.
+   - Add the Shields.io Stars_Badge with `style=social&color=white` linking to the stargazers page.
    - Specify pricing, open-source license, tech stack, and resource requirements.
 4. ✅ **Ensure Alphabetical or Metric Order**: Keep tables and lists ordered according to their respective criteria.
 5. 🚀 **Submit Pull Request**: Open a PR with a concise description of your additions.
@@ -276,3 +276,12 @@ If you find this curated directory useful for your research, institution, or inf
 
 - **Disclaimer**: This directory is community-curated for informational and architectural guidance. Product names, logos, and trademarks belong to their respective commercial and foundation entities.
 - **License**: Released under the [MIT License](LICENSE).
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Web-Conferencing-Virtual-Classroom&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Web-Conferencing-Virtual-Classroom_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Web-Conferencing-Virtual-Classroom_growth.svg">
+  </picture>
+</a>
