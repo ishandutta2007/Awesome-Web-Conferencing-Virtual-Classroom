@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glow Gradient -->
+    <radialGradient id="glowPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyanPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Shadow filter for foreground text -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+
+    <filter id="pillShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1.5deg); }
+      }
+      @keyframes floatOpposite {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1.5deg); }
+      }
+      @keyframes pulseLight {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.12); }
+      }
+      @keyframes waveBar {
+        0%, 100% { height: 12px; y: 154px; }
+        50% { height: 38px; y: 128px; }
+      }
+      @keyframes waveBar2 {
+        0%, 100% { height: 28px; y: 138px; }
+        50% { height: 10px; y: 156px; }
+      }
+      @keyframes signalStream {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .pulse-orb {
+        animation: pulseLight 6s ease-in-out infinite alternate;
+        transform-origin: center;
+      }
+      .float-card-1 {
+        animation: floatSlow 7s ease-in-out infinite;
+      }
+      .float-card-2 {
+        animation: floatOpposite 8s ease-in-out infinite;
+      }
+      .bar-1 { animation: waveBar 1.2s ease-in-out infinite; }
+      .bar-2 { animation: waveBar2 1.4s ease-in-out infinite; }
+      .bar-3 { animation: waveBar 1.7s ease-in-out infinite 0.2s; }
+      .bar-4 { animation: waveBar2 1.1s ease-in-out infinite 0.3s; }
+      .bar-5 { animation: waveBar 1.5s ease-in-out infinite 0.1s; }
+      .signal-line {
+        stroke-dasharray: 8 12;
+        animation: signalStream 4s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Grid Lines (Web Conferencing Network Matrix) -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.25">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Ambient Dynamic Pulsing Orbs in Background -->
+  <circle cx="200" cy="100" r="160" fill="url(#glowPulse)" class="pulse-orb" />
+  <circle cx="1020" cy="240" r="180" fill="url(#cyanPulse)" class="pulse-orb" style="animation-delay: -3s;" />
+
+  <!-- Animated WebRTC Peer Signals Behind Content -->
+  <g opacity="0.35">
+    <path class="signal-line" d="M 80 80 Q 300 20 600 80 T 1120 70" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="signal-line" d="M 100 290 Q 400 340 700 290 T 1100 280" fill="none" stroke="#a855f7" stroke-width="2" style="animation-duration: 5s;" />
+  </g>
+
+  <!-- Dynamic Floating Decorative Tech Badges (Non-obstructing, Side Placements) -->
+  <g class="float-card-1" filter="url(#pillShadow)">
+    <!-- Top-Right Tech Badge: WebRTC Live Stream -->
+    <rect x="910" y="42" width="220" height="42" rx="21" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+    <circle cx="932" cy="63" r="6" fill="#10b981" />
+    <circle cx="932" cy="63" r="10" fill="#10b981" opacity="0.25" class="pulse-orb" />
+    <text x="948" y="68" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">WebRTC • Ultra-Low Latency</text>
+  </g>
+
+  <g class="float-card-2" filter="url(#pillShadow)">
+    <!-- Bottom-Left Dynamic Equalizer Soundwaves Card -->
+    <rect x="70" y="275" width="210" height="48" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="1.2" opacity="0.9" />
+    <text x="90" y="304" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Audio/Video Mesh</text>
+    <!-- Equalizer bars -->
+    <rect class="bar-1" x="210" y="286" width="4" height="26" rx="2" fill="#38bdf8" />
+    <rect class="bar-2" x="220" y="289" width="4" height="20" rx="2" fill="#818cf8" />
+    <rect class="bar-3" x="230" y="284" width="4" height="30" rx="2" fill="#a855f7" />
+    <rect class="bar-4" x="240" y="291" width="4" height="16" rx="2" fill="#c084fc" />
+    <rect class="bar-5" x="250" y="287" width="4" height="24" rx="2" fill="#38bdf8" />
+  </g>
+
+  <g class="float-card-1" filter="url(#pillShadow)">
+    <!-- Bottom-Right Floating Pill: LMS & Pedagogy -->
+    <rect x="910" y="278" width="220" height="42" rx="21" fill="#1e293b" stroke="#a855f7" stroke-width="1.2" opacity="0.9" />
+    <text x="932" y="304" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🎓 LMS &amp; Virtual Classroom</text>
+  </g>
+
+  <!-- FOREGROUND LAYER: Perfectly crisp, high-contrast title and subtitle ALWAYS in foreground -->
+  <g id="foreground" filter="url(#textGlow)">
+    <!-- Header Topic Tag -->
+    <g transform="translate(600, 78)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#312e81" stroke="#818cf8" stroke-width="1" opacity="0.9" />
+      <text x="0" y="5" fill="#a5f3fc" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">CURATED ECOSYSTEM DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="152" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Web Conferencing &amp; Virtual Classroom
+    </text>
+
+    <!-- Subtitle with Gradient Underline -->
+    <text x="600" y="196" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#93c5fd" letter-spacing="0.2">
+      Self-Hosted Pedagogy Tools, Scalable WebRTC Engines, SFU/MCU Servers &amp; Enterprise SaaS
+    </text>
+
+    <!-- Feature Highlights Bar in Center -->
+    <g transform="translate(600, 240)">
+      <rect x="-270" y="-15" width="540" height="30" rx="15" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.85" />
+      <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#cbd5e1">
+        🎥 Video &amp; Screen Sharing &nbsp;•&nbsp; 📝 Whiteboards &amp; Breakouts &nbsp;•&nbsp; 🚀 100% Self-Hostable
+      </text>
+    </g>
+  </g>
+</svg>
