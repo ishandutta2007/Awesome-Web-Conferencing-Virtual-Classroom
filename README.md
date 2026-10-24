@@ -93,7 +93,7 @@ The following table highlights top commercial conferencing and virtual classroom
 
 ## 💻 Open-Source GitHub Projects & Media Engines
 
-Below are top open-source virtual classroom platforms, video conferencing suites, and WebRTC streaming servers, sorted in **descending order by GitHub Stars_Count**. Each repository badge links directly to its live stargazers page.
+Below are top open-source virtual classroom platforms, video conferencing suites, and WebRTC streaming servers, sorted in **descending order by GitHub_Stars_Count**. Each repository badge links directly to its live stargazers page.
 
 ---
 
